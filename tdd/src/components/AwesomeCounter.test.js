@@ -14,7 +14,7 @@ test("it should have a correct initial value of 0", () => {
 });
 
 test("it should increase the value correctly when add is clicked once", () => {
-  throw new Error();
+  render(<AwesomeCounter initialValue={7} />);
 });
 
 test("it should decrease the value correctly when remove is clicked twice", () => {
